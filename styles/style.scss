@@ -1,0 +1,327 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button {
+    border: none;
+}
+
+
+main {
+    width: 100%;
+    height: 4057px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 22% 22% 22% 34%;
+
+
+    .birinchi_qism {
+        background-image: url(../birinchi_qism_rasmlari/banner.png);
+        .d1 {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 142px;
+
+            div {
+                display: flex;
+                justify-content: center;
+                gap: 26px;
+
+                p {
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    font-size: 48px;
+                }
+            }
+
+            nav ul {
+                display: flex;
+                align-items: center;
+                gap: 25px;
+                li {
+                    display: flex;
+                    gap: 15px;
+                }
+                p {
+                    display: flex;
+                    color: white;
+                }
+            }
+        }
+
+
+
+        .d2 {
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+
+            strong {
+                font-size: 120px;
+                color: white;
+                
+            }
+
+            p {
+                font-size: 50px;
+                color: white;
+            }
+
+        }
+
+        .d3 {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 22px;
+            button {
+                padding: 20px 52px;
+                font-size: 18px;
+                border-radius: 5px 5px 0px 0px;
+            }
+
+        }
+
+        .d4 {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            p {
+                color: white;
+                font-size: 18px;
+            }
+
+            input {
+                width: 221px;
+                height: 69px;
+                padding: 18px;
+            }
+
+            select {
+                width: 143px;
+                height: 69px;
+                padding: 18px;
+            }
+            button {
+                width: 221px;
+                height: 69px;
+                background-color: #ECA00D;
+                margin-top: 20px;
+                border: none;
+            }
+        }
+
+        .d5 {
+            width: 100%;
+            height: 10%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 142px;
+            align-items: center;
+            font-size: 24px;
+            background-color:  #E5E5E5;;
+
+            .dd1 {
+               
+                display: flex;
+                gap: 20px;
+                justify-content: flex-end;
+               
+            }
+
+            .dd2 {
+               
+                display: flex;
+                gap: 20px;
+                justify-content: flex-end;
+
+            }
+
+            .dd3 {
+               
+                justify-content: flex-end;
+
+                display: flex;
+                gap: 20px;
+                
+            }
+        }
+
+    }
+
+
+    .ikkinchi_qism {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 120px 142px;
+        column-gap: 39px;
+        row-gap: 60px;
+
+        .d1{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 10%;
+            gap: 19px;
+
+            .p {
+                font-size: 36px;
+            }
+
+            .c {
+                width: 258px;
+                height: 3px;
+                background-color: #ECA00D;
+            }
+        }
+
+
+        .d2 {
+
+            width: 30%;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .i1 {
+                width: 100%;
+                height: 45%;
+                background-image: url(../rasmlar_ikkinchi/alonso-reyes-Ca4XZM3xABg-unsplash.png);
+
+                
+                img {
+                    background-color: #ffaa00;
+                }
+
+            }
+
+            .i2 {
+                width: 100%;
+                height: 45%;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                gap: 26px;
+
+                strong {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+
+    .uchinchi_qism {
+        background-image: url(../uchinchi/luca-bravo-hFzIoD0F_i8-unsplash\ 1.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 52px;
+        padding: 0px 142px;
+
+        .d1 {
+            width: 49%;
+            height: 50%;
+            background-image: url(../uchinchi/antonio-lainez-97_u1LDOLx0-unsplash\ 1.png);
+        }
+
+        .d2 {
+            background-color:  #7d7d7da1;;
+            width: 49%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 26px;
+            padding: 40px 45px;
+            
+            strong {
+                font-size: 36px;
+                color: #FFE600;
+
+            }
+
+            p {
+                color: #FFFFFF;
+            }
+        }
+    }
+
+
+
+    .tortinchi_qism {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 120px 142px;
+        column-gap: 39px;
+        row-gap: 60px;
+
+        .d1{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 10%;
+            gap: 19px;
+
+            .p {
+                font-size: 36px;
+            }
+
+            .c {
+                width: 258px;
+                height: 3px;
+                background-color: #ECA00D;
+            }
+
+        }
+
+        .d2 {
+            width: 30%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .i1 {
+                width: 100%;
+                height: 47%;
+
+                img {
+                    background-color: #FFAC0B;;
+                }
+            }
+
+            .i2 {
+                width: 100%;
+                height: 47%;
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                gap: 26px;
+                strong {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+
+
+}
